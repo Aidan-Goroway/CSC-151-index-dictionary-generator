@@ -1,0 +1,12 @@
+For my pageList, I opted to use array implementation.
+It is not completely an array, as it also houses an instance variable that
+contains the word we are counting.
+The reason I chose this implementation is that the organization of the page numbers
+was already fairly linear, just like an array would be. When checking if a word has
+already been used on a page, the only page number you need to check is the
+previous one, which is easily checked and does not require a complete incrementation
+through the entire array, a disadvantage that arrays normally carry. A major disadvantage
+of arrays is that in comparison to completely abstract data types not based off of
+any preexisting models, like trees or linkedLists, arrays are difficult to
+"generalize". Creating an array that can hold generic types requires additional
+work and typecasting that may normally would not be needed.
